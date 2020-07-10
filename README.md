@@ -1,1 +1,2 @@
-# One shell code to rule them all
+# One ShellCode To Rule Them All
+Simple shellcode install and set up applications.
