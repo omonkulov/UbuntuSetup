@@ -38,6 +38,12 @@ snap install postman
 echo    "Done"
 echo -e "------------------------------\n"
 
+echo    "Installing Mysdl"
+echo    "------------------------------"
+sudo apt-get install mysql-server
+echo    "Done"
+echo -e "------------------------------\n"
+
 echo    "Cleaning apt"
 echo    "------------------------------"
 sudo apt-get autoremove -y
