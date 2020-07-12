@@ -31,6 +31,13 @@ snap install code --classic
 echo    "Done"
 echo -e "------------------------------\n"
 
+
+echo    "Installing Postman"
+echo    "------------------------------"
+snap install postman
+echo    "Done"
+echo -e "------------------------------\n"
+
 echo    "Cleaning apt"
 echo    "------------------------------"
 sudo apt-get autoremove -y
