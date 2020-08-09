@@ -44,6 +44,13 @@ sudo apt-get install mysql-server
 echo    "Done"
 echo -e "------------------------------\n"
 
+echo    "Installing Chrome"
+echo    "------------------------------"
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+echo    "Done"
+echo -e "------------------------------\n"
+
 echo    "Cleaning apt"
 echo    "------------------------------"
 sudo apt-get autoremove -y
